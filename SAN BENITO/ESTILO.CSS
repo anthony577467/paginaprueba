@@ -1,0 +1,95 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: silver; /* Fondo plateado */
+}
+
+header {
+    background-image: url('Imagenes/imagen3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #eeeeee;
+    color: #fff;
+    padding: 150px 0;
+    text-align: absolute;
+    position: absolute;
+    z-index: 200;
+}
+
+/* Estilos para el logotipo */
+.logo {
+    position: absolute;
+    top: 10px; /* Ajusta la distancia desde la parte superior */
+    right: 10px; /* Ajusta la distancia desde la derecha */
+    max-height: 120px; /* Limita el tamaño del logotipo */
+}
+
+/* Estilos para el título */
+h1 {
+    margin-top: 50px; /* Ajusta la distancia desde el logotipo */
+}
+
+/* Estilos para la navegación */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centra los elementos horizontalmente */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Espacio entre elementos de navegación */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #797070;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Agrega un efecto de brillo al pasar el cursor o el dedo */
+nav a:hover {
+    background-color: #555;
+}
+
+/* Estilos para los íconos de redes sociales */
+.social-icons {
+    text-align: center; /* Alinea los íconos horizontalmente en el centro */
+    margin-top: 20px; /* Espacio superior para separar de otros elementos */
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 24px; /* Ajusta el tamaño de la fuente según tus preferencias */
+    margin: 0 10px; /* Agrega espacio entre los íconos */
+    transition: filter 0.3s ease-in-out; /* Agrega una transición suave para el efecto */
+}
+
+/* Estilos para cada red social */
+.social-icons a.instagram {
+    color: #dd4848 !important; /* Agrega !important para asegurarte de que se aplique */
+}
+
+.social-icons a.facebook {
+    color: #1877F2 !important;
+}
+
+.social-icons a.twitter {
+    color: #1DA1F2 !important;
+}
+
+.social-icons a.youtube {
+    color: #FF0000 !important;
+}
+
+/* Agrega un efecto de brillo al pasar el cursor o el dedo */
+.social-icons a:hover {
+    filter: brightness(1.5); /* Aumenta el brillo en un 50% */
+}
